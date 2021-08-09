@@ -76,12 +76,3 @@ a.btn-social,
 
 /* ----------- */
 
-.img-garis{
-    width: 617px;
-    height: 492.8px;
-    left: 0px;
-    background-image: url(../img/garis.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 1px solid white;
-}
