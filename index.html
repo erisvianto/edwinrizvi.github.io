@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Edwin Risvianto</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/preloader.min.css" rel="stylesheet">
+    <link href="css/circle.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/fm.revealator.jquery.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/skins/customskin.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styleswitcher.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="js/modernizr.custom.js"></script>
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <style>
+        *{
+            font-family: 'Poppins', sans-serif;
+        }
+        .icon-box{
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        .img-garis{
+            position: absolute;
+            width: 617px;
+            height: 500px;
+            left: 0px;
+            top: -53px;
+            background-image: url(./img/garis.png);
+            background-repeat: no-repeat;
+        }
+        .img-ornament{
+            position: absolute;
+            width: 909px;
+            height: 689px;
+            left: 579px;
+            top: 47px;
+            background-image: url(./img/bg-ornament.png);
+            background-repeat: no-repeat;
+        }
+        .img-me{
+            position: absolute;
+            width: 700.58px;
+            height: 700.08px;
+            left: 600.61px;
+            top: 0px;
+
+            background: url(./img/me2.png);
+        }
+        .deskripsi{
+            position: absolute;
+            /* width: 380px; */
+            height: 542px;
+            left: 182px;
+            top: 132px;
+            /* border: 1px solid white; */
+        }
+        .hallo{
+            font-size: 18px;
+            line-height: 27px;
+            /* identical to box height */
+
+
+            color: rgba(255, 255, 255, 0.5);
+        }
+        .name{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 64px;
+            line-height: 96px;
+            /* identical to box height */
+            color: #FFFFFF !important;
+            font-family: 'Poppins', sans-serif;
+            margin-top: 10px;
+        }
+        .desc{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 27px;
+
+            color: rgba(255, 255, 255, 0.5);
+        }
+        .btn-more{
+            height: 46px;   
+
+            background: #605B91;
+            border-radius: 10px;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 18px;
+            /* identical to box height */
+
+
+            color: #FFFFFF;
+            margin-top: 50px;
+        }
+        .contact{
+            position: absolute;
+            margin-top: 50px;
+        }
+        .contact-me{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+            /* identical to box height */
+
+
+            color: rgba(255, 255, 255, 0.5);
+        }
+        .html{
+            position: absolute;
+            width: 55px;
+            height: 55px;
+            left: 742px;
+            top: 243px;
+            background-image: url(./img/html.png);
+            background-size: cover;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+        .php{
+            position: absolute;
+            width: 55px;
+            height: 55px;
+            left: 772px;
+            top: 301px;
+            background-image: url(./img/php.png);
+            background-size: cover;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+        .mysql{
+            position: absolute;
+            width: 55px;
+            height: 55px;
+            left: 1109px;
+            top: 65px;
+            background-image: url(./img/mysql.png);
+            background-size: cover;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+        .javascript{
+            position: absolute;
+            width: 55px;
+            height: 55px;
+            left: 1146px;
+            top: 125px;
+            background-image: url(./img/js.png);
+            background-size: cover;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+        .laravel{
+            position: absolute;
+            width: 55px;
+            height: 55px;
+            left: 1236px;
+            top: 506px;
+            background-image: url(./img/laravel.png);
+            background-size: cover;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+        .css{
+            position: absolute;
+            width: 55px;
+            height: 55px;
+            left: 1196px;
+            top: 581px;
+            background-image: url(./img/css.png);
+            background-size: cover;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+    </style>
+</head>
+<body class="home">
+    <header class="header" id="navbar-collapse-toggle">
+        <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
+            <li class="icon-box active">
+                <i class="fa fa-home"></i> 
+                <a href="index.html">
+                    <h2>Home</h2>
+                </a>
+            </li>
+            <li class="icon-box">
+                <i class="fa fa-user"></i>
+                <a href="about.html">
+                    <h2>About</h2>
+                </a>
+            </li>
+            <li class="icon-box">
+                <i class="fa fa-briefcase"></i>
+                <a href="portfolio.html">
+                    <h2>Portfolio</h2>
+                </a>
+            </li>
+        </ul>
+        <nav role="navigation" class="d-block d-lg-none">
+            <div id="menuToggle"><input type="checkbox"> <span></span> <span></span> <span></span>
+                <ul class="list-unstyled" id="menu">
+                    <li data-aos="zoom-in" class="active"><a href="index.html"><i
+                                class="fa fa-home"></i><span>Home</span></a></li>
+                    <li data-aos="zoom-in"><a href="about.html"><i class="fa fa-user"></i><span>About</span></a></li>
+                    <li data-aos="zoom-in"><a href="portfolio.html"><i
+                                class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
+                    <li data-aos="zoom-in"><a href="https://www.digitalkode.com/authors/fliw/"><i
+                                class="fa fa-comments"></i><span>Blog</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="container-fluid main-container container-home p-0 revealator-slideup revealator-once revealator-delay1">
+        <div class="img-garis"></div>
+        <div class="img-ornament"></div>
+        <div class="img-me"></div>
+        <div class="html"></div>
+        <div class="php"></div>
+        <div class="mysql"></div>
+        <div class="javascript"></div>
+        <div class="laravel"></div>
+        <div class="css"></div>
+        <div class="container container-fluid">
+            <div class="deskripsi col-md-6">
+                <p class="text-uppercase hallo">hallo i am</p>
+                <h1 class="name">Edwin Risvianto</h1>
+                <!-- <h1 class="name">Risvianto</h1> -->
+                <p class="desc">a Young Web Developer who want to help<br>
+                    each other to be coder!</p>
+                <button class="btn btn-more">More about me</button>
+                <div class="contact">
+                    <p class="contact-me">Contact me</p>
+                    <p><span class="iconify mr-2" data-inline="false" data-icon="dashicons:email-alt"
+                            style="color: #ffffff; font-size: 24px;"></span> risviantoe@gmail.com</p>
+                    <p>Or</p>
+                    <div class="social">
+                        <a href="#"><span class="iconify mr-3" data-inline="false" data-icon="akar-icons:github-fill"
+                                style="color: #ffffff; font-size: 24px;"></span></a>
+                        <a href="#"><span class="iconify mr-3" data-inline="false" data-icon="akar-icons:linkedin-fill"
+                                style="color: #ffffff; font-size: 24px;"></span></a>
+                        <a href="#"><span class="iconify mr-3" data-inline="false" data-icon="akar-icons:whatsapp-fill"
+                                style="color: #ffffff; font-size: 24px;"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+        
+    </section>
+
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/styleswitcher.js"></script>
+    <script src="js/preloader.min.js"></script>
+    <script src="js/fm.revealator.jquery.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpGridGallery.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>
